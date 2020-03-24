@@ -144,7 +144,8 @@ extension BaseViewController {
         //        habitsDataBase.insert(, at: 0)
         //        let index = IndexPath(row: 0, section: 0)
         //        mainTableView.insertRows(at: [index], with: .fade)
-        performSegue(withIdentifier: "createNewHabit", sender: self)
+//        performSegue(withIdentifier: "createNewHabit", sender: self)
+        navigationController?.pushViewController(AddHabitViewController(), animated: true)
     }
     
 }

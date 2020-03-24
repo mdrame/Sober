@@ -75,7 +75,7 @@ class ConfirmHabitViewController: UIViewController {
     lazy var habitNameTextField: UITextField = {
         let habitNameTextField = UITextField(frame: .zero)
         habitNameTextField.translatesAutoresizingMaskIntoConstraints =  false
-        habitNameTextField.placeholder = "    Hahit Name"
+        habitNameTextField.placeholder = "Hahit Name"
         habitNameTextField.textAlignment = .left
         habitNameTextField.backgroundColor = .white
         //        habitNameTextField.clipsToBounds = true
@@ -85,6 +85,9 @@ class ConfirmHabitViewController: UIViewController {
         habitNameTextField.layer.cornerRadius = 10
         habitNameTextField.layer.borderWidth = 10
         habitNameTextField.layer.borderColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        let leftView = UIView(frame: CGRect(x: 0, y: 5, width: 10, height: habitNameTextField.frame.size.height))
+        habitNameTextField.leftViewMode = .always
+        habitNameTextField.leftView = leftView
         return habitNameTextField
     }()
     

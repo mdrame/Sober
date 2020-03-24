@@ -116,7 +116,7 @@ class LoginViewController: UIViewController {
             logInRegisterTextFields.leftView = leftView
             // Ignore this ungly code, I' was testing something ...
             if i == 0 {
-            logInRegisterTextFields.placeholder = "Email / UserName"
+                logInRegisterTextFields.placeholder = "Email / UserName"
             } else {
                 logInRegisterTextFields.placeholder = "PassWord"
             }
@@ -136,7 +136,7 @@ class LoginViewController: UIViewController {
     }()
     
     @objc func logInPress() {
-       performSegue(withIdentifier: "homefromlogin", sender: self)
+        performSegue(withIdentifier: "homefromlogin", sender: self)
     }
     
     func loginConstrain() {
