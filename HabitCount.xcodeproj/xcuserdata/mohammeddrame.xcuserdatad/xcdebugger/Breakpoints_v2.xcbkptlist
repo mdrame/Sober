@@ -20,5 +20,128 @@
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33492EE4-93D2-4F90-B411-5AB46CDFCA18"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HabitCount/Controllers/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "registerlabel"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "33492EE4-93D2-4F90-B411-5AB46CDFCA18 - 770565816f8edcb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HabitCount.RegisterViewController.registerlabel.getter : __C.UILabel"
+                  moduleName = "HabitCount"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammeddrame/Documents/dev/swift/personal/Sober/HabitCount/Controllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "370">
+               </Location>
+               <Location
+                  uuid = "33492EE4-93D2-4F90-B411-5AB46CDFCA18 - 964d57a36fba38b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UILabel in HabitCount.RegisterViewController.registerlabel.getter : __C.UILabel"
+                  moduleName = "HabitCount"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammeddrame/Documents/dev/swift/personal/Sober/HabitCount/Controllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "14">
+               </Location>
+               <Location
+                  uuid = "33492EE4-93D2-4F90-B411-5AB46CDFCA18 - 62d6ba0d93ddfb8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HabitCount.RegisterViewController.registerlabel.setter : __C.UILabel"
+                  moduleName = "HabitCount"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammeddrame/Documents/dev/swift/personal/Sober/HabitCount/Controllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "33492EE4-93D2-4F90-B411-5AB46CDFCA18 - d78be312a351858a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HabitCount.RegisterViewController.registerlabel.modify : __C.UILabel"
+                  moduleName = "HabitCount"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammeddrame/Documents/dev/swift/personal/Sober/HabitCount/Controllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "33492EE4-93D2-4F90-B411-5AB46CDFCA18 - 54ff9cd4dbfbfcdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HabitCount.RegisterViewController.registerlabel.modify : __C.UILabel with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "HabitCount"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammeddrame/Documents/dev/swift/personal/Sober/HabitCount/Controllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "33492EE4-93D2-4F90-B411-5AB46CDFCA18 - d30d7a31816ecbb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HabitCount.RegisterViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HabitCount.RegisterViewController"
+                  moduleName = "HabitCount"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammeddrame/Documents/dev/swift/personal/Sober/HabitCount/Controllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "33492EE4-93D2-4F90-B411-5AB46CDFCA18 - 1f86e30148d87bf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HabitCount.RegisterViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HabitCount.RegisterViewController&gt;"
+                  moduleName = "HabitCount"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammeddrame/Documents/dev/swift/personal/Sober/HabitCount/Controllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

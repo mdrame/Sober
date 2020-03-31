@@ -14,7 +14,6 @@ class OnBoardingViewController: UIViewController {
     var scrollViewCurrentPage = 0
     var logIn_and_signUp_buttons_tittle = ["LogIn", "Register"]
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(mainScrollView)
@@ -111,7 +110,6 @@ class OnBoardingViewController: UIViewController {
             print("Neather button Press")
         }
     }
-    
     
     lazy var buttonsStackView : UIStackView = {
         let buttonsStackView = UIStackView(frame: .zero)

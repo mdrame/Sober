@@ -26,28 +26,19 @@ class LoginViewController: UIViewController {
     
     // Todo ...
     // 1. Create welcome back label ✅
-    
     // 2. Create bounce Title label ✅
-    
     // 3. Create logo imageView ✅
-    
     // 4. Create stackview for email and password field ✅
-    
     // 5. Create stackview constraing ✅
-    
     // 6. create textfield ✅
-    
     // 7. add textfields to stackview ✅
-    
     // 8. create forgot password button ❌
-    
     // 9. create log in button ✅
+    // 10. stackview for singup label and sign up button ✅
+    // 11. create stackview constrain ✅
+    // 12. forgetpassword button
+    // 13. crate Dont have a account label and  create one button in a stackView
     
-    // 10. stackview for singup label and sign up button
-    
-    // 11. create stackview constrain
-    
-    // 12. signup label and button and add to stackview
     
     lazy var welcomeBacklabel: UILabel = {
         let welcomeBacklabel = UILabel(frame: .zero)
