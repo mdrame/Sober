@@ -153,6 +153,7 @@ class RegisterViewController: UIViewController {
     
     @objc func logInButtonPress() {
         print("DissMiss UINavigation  / Pop it to LoginViewController ")
+        dismiss(animated: true, completion: nil)
     }
     
     
