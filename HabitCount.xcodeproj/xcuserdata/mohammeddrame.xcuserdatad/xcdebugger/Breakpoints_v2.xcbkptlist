@@ -30,10 +30,10 @@
             filePath = "HabitCount/Controllers/RegisterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "registerlabel"
-            landmarkType = "24">
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "RegisterViewController"
+            landmarkType = "3">
             <Locations>
                <Location
                   uuid = "33492EE4-93D2-4F90-B411-5AB46CDFCA18 - 770565816f8edcb7"

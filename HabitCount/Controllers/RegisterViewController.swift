@@ -19,6 +19,11 @@ class RegisterViewController: UIViewController {
         registerTextFields()
         view.addSubview(register)
         registerConstrain()
+        view.addSubview(labelAndLogInStackView)
+        labelAndLogInStackViewwConstraint()
+        labelAndLogInStackView.addArrangedSubview(alreadyHaveAnAccountLabel)
+        labelAndLogInStackView.addArrangedSubview(logInButton)
+        
     }
     // Todo ...
     // 1. Registraction Label ✅
@@ -107,12 +112,49 @@ class RegisterViewController: UIViewController {
            ])
        }
     
+    lazy var labelAndLogInStackView: UIStackView = {
+           let labelAndLogInStackView = UIStackView(frame: .zero)
+           labelAndLogInStackView.axis = .horizontal
+        labelAndLogInStackView.distribution = .fillProportionally
+           labelAndLogInStackView.spacing = 15
+           labelAndLogInStackView.translatesAutoresizingMaskIntoConstraints = false
+           return labelAndLogInStackView
+       }()
     
-    
-    
-    
-    
-    
-    
+    func labelAndLogInStackViewwConstraint() {
+          NSLayoutConstraint.activate([
+            labelAndLogInStackView.centerYAnchor.constraint(equalTo: register.bottomAnchor, constant: 30),
+            labelAndLogInStackView.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0),
+            labelAndLogInStackView.widthAnchor.constraint(equalToConstant: view.frame.size.width / 1.5),
+            labelAndLogInStackView.heightAnchor.constraint(equalToConstant: 50)
+          ])
+      }
 
+    lazy var alreadyHaveAnAccountLabel: UILabel = {
+        let alreadyHaveAnAccountLabel = UILabel(frame: .zero)
+        alreadyHaveAnAccountLabel.translatesAutoresizingMaskIntoConstraints = false
+//        alreadyHaveAnAccountLabel.backgroundColor = .white
+        alreadyHaveAnAccountLabel.text = "Already have an account ?"
+        alreadyHaveAnAccountLabel.textAlignment = .right
+        alreadyHaveAnAccountLabel.adjustsFontForContentSizeCategory = true
+        
+        return alreadyHaveAnAccountLabel
+    }()
+    
+    lazy var logInButton: UIButton = {
+        let logInButton = UIButton(frame: .zero)
+        logInButton.translatesAutoresizingMaskIntoConstraints = false
+            logInButton.setTitle("logIn", for: .normal)
+            logInButton.backgroundColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 0)
+            logInButton.layer.cornerRadius = 5
+            logInButton.addTarget(self, action: #selector(logInButtonPress), for: .touchUpInside)
+            return logInButton
+        }()
+        
+        @objc func logInButtonPress() {
+            print("DissMiss UINavigation  / Pop it to LoginViewController ")
+        }
+    
+  
 }
+
