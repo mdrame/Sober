@@ -12,6 +12,7 @@ class HabitDetailedViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         view.addSubview(imageViewIcon)
         imageViewIconConstraints()
         view.addSubview(labelCurrentStreak)
@@ -65,7 +66,8 @@ class HabitDetailedViewController: UIViewController {
     lazy var labelCurrentStreak: UILabel = {
         let labelCurrentStreak = UILabel(frame: .zero)
         labelCurrentStreak.translatesAutoresizingMaskIntoConstraints = false
-        labelCurrentStreak.backgroundColor = .systemRed
+        labelCurrentStreak.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        labelCurrentStreak.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
         labelCurrentStreak.textAlignment = .center
         return labelCurrentStreak
     }()
@@ -82,7 +84,8 @@ class HabitDetailedViewController: UIViewController {
     lazy var labelCurrentStreakLabel: UILabel = {
         let labelCurrentStreak = UILabel(frame: .zero)
         labelCurrentStreak.translatesAutoresizingMaskIntoConstraints = false
-        labelCurrentStreak.backgroundColor = .systemRed
+        labelCurrentStreak.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        labelCurrentStreak.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
         labelCurrentStreak.textAlignment = .center
         labelCurrentStreak.text = "Current Streak"
         return labelCurrentStreak
@@ -100,7 +103,8 @@ class HabitDetailedViewController: UIViewController {
     lazy var labelTotalCompletions: UILabel = {
         let labelTotalCompletions = UILabel(frame: .zero)
         labelTotalCompletions.translatesAutoresizingMaskIntoConstraints = false
-        labelTotalCompletions.backgroundColor = .systemRed
+        labelTotalCompletions.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        labelTotalCompletions.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
         labelTotalCompletions.textAlignment = .center
         return labelTotalCompletions
     }()
@@ -109,7 +113,8 @@ class HabitDetailedViewController: UIViewController {
     lazy var labelTotalCompletionsLabel: UILabel = {
         let labelTotalCompletionsLabel = UILabel(frame: .zero)
         labelTotalCompletionsLabel.translatesAutoresizingMaskIntoConstraints = false
-        labelTotalCompletionsLabel.backgroundColor = .systemRed
+        labelTotalCompletionsLabel.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        labelTotalCompletionsLabel.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
         labelTotalCompletionsLabel.textAlignment = .center
         labelTotalCompletions.text = "Total:"
         return labelTotalCompletionsLabel
@@ -121,7 +126,7 @@ class HabitDetailedViewController: UIViewController {
         totalCompletionLabelsStack.translatesAutoresizingMaskIntoConstraints = false
         totalCompletionLabelsStack.distribution = .fillEqually
         totalCompletionLabelsStack.spacing = 50
-        totalCompletionLabelsStack.backgroundColor = .systemPink
+        totalCompletionLabelsStack.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
         return totalCompletionLabelsStack
     }()
     
@@ -137,7 +142,8 @@ class HabitDetailedViewController: UIViewController {
     lazy var labelBestStreak: UILabel = {
         let labelBestStreak = UILabel(frame: .zero)
         labelBestStreak.translatesAutoresizingMaskIntoConstraints = false
-        labelBestStreak.backgroundColor = .systemRed
+        labelBestStreak.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        labelBestStreak.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
         labelBestStreak.textAlignment = .center
         return labelBestStreak
     }()
@@ -145,7 +151,8 @@ class HabitDetailedViewController: UIViewController {
     lazy var labelBestStreakLabel: UILabel = {
            let labelBestStreak = UILabel(frame: .zero)
            labelBestStreak.translatesAutoresizingMaskIntoConstraints = false
-           labelBestStreak.backgroundColor = .systemRed
+        labelBestStreak.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+           labelBestStreak.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
            labelBestStreak.textAlignment = .center
            return labelBestStreak
        }()
@@ -156,7 +163,7 @@ class HabitDetailedViewController: UIViewController {
         labelBestStreakStackView.translatesAutoresizingMaskIntoConstraints = false
         labelBestStreakStackView.distribution = .fillEqually
         labelBestStreakStackView.spacing = 50
-        labelBestStreakStackView.backgroundColor = .systemPink
+        labelBestStreakStackView.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
         return labelBestStreakStackView
     }()
     
@@ -174,7 +181,8 @@ class HabitDetailedViewController: UIViewController {
     lazy var labelStartingDate: UILabel = {
         let labelStartingDate = UILabel(frame: .zero)
         labelStartingDate.translatesAutoresizingMaskIntoConstraints = false
-        labelStartingDate.backgroundColor = .systemRed
+        labelStartingDate.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
+        labelStartingDate.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         labelStartingDate.textAlignment = .center
         return labelStartingDate
     }()
@@ -182,7 +190,8 @@ class HabitDetailedViewController: UIViewController {
     lazy var labelStartingDateLabel: UILabel = {
           let labelStartingDate = UILabel(frame: .zero)
           labelStartingDate.translatesAutoresizingMaskIntoConstraints = false
-          labelStartingDate.backgroundColor = .systemRed
+        labelStartingDate.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+          labelStartingDate.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
           labelStartingDate.textAlignment = .center
           return labelStartingDate
       }()
@@ -193,7 +202,7 @@ class HabitDetailedViewController: UIViewController {
         labelBestStreakStackView.translatesAutoresizingMaskIntoConstraints = false
         labelBestStreakStackView.distribution = .fillEqually
         labelBestStreakStackView.spacing = 50
-        labelBestStreakStackView.backgroundColor = .systemPink
+        labelBestStreakStackView.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
         return labelBestStreakStackView
     }()
     
@@ -210,7 +219,8 @@ class HabitDetailedViewController: UIViewController {
     lazy var buttonAction: UIButton = {
         let buttonAction = UIButton(frame: .zero)
         buttonAction.translatesAutoresizingMaskIntoConstraints = false
-        buttonAction.backgroundColor = .systemRed
+        
+        buttonAction.backgroundColor = #colorLiteral(red: 0.7450980544, green: 0.1568627506, blue: 0.07450980693, alpha: 1)
         buttonAction.setTitle("Mark as completed" , for: .normal)
         buttonAction.addTarget(self, action: #selector(pressActionButton), for: .touchUpInside)
         return buttonAction

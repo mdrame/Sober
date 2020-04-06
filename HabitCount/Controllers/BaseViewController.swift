@@ -66,9 +66,6 @@ class BaseViewController: UIViewController {
         ])
     }
     
-    
-    
-    
 }
 
 
@@ -133,7 +130,8 @@ extension BaseViewController {
     func setNavBar() {
         title = "Habits"
         navigationController?.navigationBar.prefersLargeTitles =  true
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "A D D", style: .done, target: self, action: #selector(addNewHabit))
+//        navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "add"), style: .done, target: self, action: #selector(addNewHabit))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "ADD", style: .done, target: self, action: #selector(addNewHabit))
 //        navigationItem.leftBarButtonItem = self.editButtonItem
 //        navigationItem.leftBarButtonItem?.tintColor = .systemYellow
         navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.1512203515, green: 0.1612353325, blue: 0.1522695124, alpha: 1)

@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class RegisterViewController: UIViewController {
     
     override func viewDidLoad() {
@@ -100,7 +101,7 @@ class RegisterViewController: UIViewController {
     }()
     
     @objc func registerPress() {
-        performSegue(withIdentifier: "homefromlogin", sender: self)
+        performSegue(withIdentifier: "homefromregister", sender: self)
     }
     
     func registerConstrain() {

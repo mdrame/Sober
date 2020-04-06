@@ -106,7 +106,7 @@ class CustomeTableViewCell: UITableViewCell {
     func initUI(object: HabitModel) {
         self.displayImage.image = UIImage(named: "\(object.selectedImage)")
         self.streakLabelName.text = object.title
-        self.streakLabelCount.text = "Streak: \(object.currentStreak)"
+        self.streakLabelCount.text = "Streak: \(object.numberOfCompletions)"
         
         contentView.backgroundColor = #colorLiteral(red: 0.1512203515, green: 0.1612353325, blue: 0.1522695124, alpha: 1)
     }
